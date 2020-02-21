@@ -60,7 +60,7 @@ publishing {
             version versioning.info.display
 
             android.libraryVariants.all { variant ->
-                if (variant.buildType.name == "release") {
+                if(variant.buildType.name == "release") {
                     variant.outputs.all {
                         logger.info "Artifact : ${it.outputFile}"
                         artifact(it.outputFile)
@@ -93,7 +93,7 @@ publishing {
                         dependencyNode.appendNode('artifactId', it.name)
                         dependencyNode.appendNode('version', it.version)
 
-                        if (it.getArtifacts().size() > 0) {
+                        if(it.getArtifacts().size() > 0){
                             dependencyNode.appendNode('type', it.getArtifacts()[0].type)
                         }
 
@@ -114,15 +114,11 @@ publishing {
 }
 
 bintray {
-    user = project.hasProperty("bintray_user") ? project.bintray_user : ""
-    key = project.hasProperty("bintray_key") ? project.bintray_key : ""
-    // publish only if code is not dirty
-    publish = !project.versioning.info.dirty
+    user = project.hasProperty("bintray_user")?project.bintray_user:""
+    key = project.hasProperty("bintray_key")?project.bintray_key:""
     pkg {
-        repo = BINTRAY_REPO
-        // We are using Root project because there are several artifacts but for the same project !
+        repo = (versioning.info.branchType == "release")? "maven" : "maven-snapshot"
         name = rootProject.name
-        userOrg = BINTRAY_ORG
         licenses = ["Apache-2.0"]
         labels = BINTRAY_LABELS.split(",")
         vcsUrl = POM_SCM_URL
@@ -138,6 +134,7 @@ bintray {
         }
     }
     publications = ['art']
+    publish = true
 }
 
 // Add publications to bintray

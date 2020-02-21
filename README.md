@@ -1,189 +1,104 @@
-[![Download](https://api.bintray.com/packages/coppernic/maven/Interactors/images/download.svg) ](https://bintray.com/coppernic/maven/Interactors/_latestVersion)
-[![Build Status](https://travis-ci.org/Coppernic/Interactors.svg?branch=master)](https://travis-ci.org/Coppernic/Interactors)
+[![Download](https://api.bintray.com/packages/coppernic/maven/AndroidCountries/images/download.svg)](https://bintray.com/coppernic/maven/AndroidCountries/_latestVersion)
+[![Build Status](https://travis-ci.org/Coppernic/AndroidCountries.svg?branch=master)](https://travis-ci.org/Coppernic/AndroidCountries)
 
-# Interactors
-Interactors implementation for Coppernic's products peripherals
+# AndroidCountries
+
+Countries resources for Android
 
 ## Set Up
 
 
 ```groovy
 repositories {
-    maven { url 'https://dl.bintray.com/coppernic/maven/'}
-    maven { url 'https://artifactory.coppernic.fr/artifactory/libs-release'}
+    maven { url 'https://dl.bintray.com/bastienpaulfr/maven/'}
 }
 
 dependencies {
-    implementation 'fr.coppernic.lib:interactors:0.1.1'
+    implementation 'fr.coppernic.lib:countries:0.1.0'
 }
 ```
 
 ## Presentation
 
-Lib that implements interactor pattern for Coppernic's devices peripherals.
+Data is gotten from https://restcountries.eu/
 
-It brings default interactor class to facilitate integration of coppernic devices. These classes aim to add very simple functionality.
-To perform more advanced tasks, then please implements your reader interface with readers libraries. More info
-[here](http://coppernic.github.io)
+Data is stored in a json file. This file is parsed during the first access to data.
 
-## Barcode
+```kotlin
+// Create a countryManager
+val countryManager = CountryManager(context) // Context is used for accessing to raw resource where json file is stored.
 
-- Create Barcode interactor class
+// getting the full list of countries
+val countries: Collection<Country> = countryManager.countries
 
-```java
-BarcodeInteractor interactor = new BarcodeInteractor(context);
+// Getting a country by name
+val france: Country = countryManager.countryByName["France"]
+
+//Getting a country vy alpha3 code
+val france: Country = countryManager.countryByAlpha3Code["FRA"]
+
+//Getting a country vy alpha2 code
+val france: Country = countryManager.countryByAlpha2Code["FR"]
+
 ```
 
-This class is eligible for dependency injection with dagger. It needs an AndroidContext module.
+### Logs
 
-- start listening to barcode events
+This library uses [SLF4J](http://www.slf4j.org/) for logging. Please use android binding to
+log into logcat. More info on [Android binding](http://www.slf4j.org/android/)
 
-```java
-interactor.listen().subscribe(new Observer<String>() {
-                                              @Override
-                                              public void onSubscribe(Disposable d) {
-                                                  // Use this disposable to dispose interactor when done
-                                              }
-
-                                              @Override
-                                              public void onNext(String s) {
-                                                  // Get the string read by barcode reader
-                                              }
-
-                                              @Override
-                                              public void onError(Throwable e) {
-                                                  // Receives errors, including timeouts
-                                              }
-
-                                              @Override
-                                              public void onComplete() {
-                                                  // Should never be called
-                                              }
-                                          });
-```
-
-- To ease timeout handling, it is advised to add a retry observable.
-
-```java
-        interactor.listen()
-            .retry(new TimeoutRetryPredicate())
-            .subscribe();
-```
-
-- To trig a read, just call trig ;-)
-
-```java
-interactor.trig();
-```
-
-## Rfid Agrident reader
-
-- Create Barcode interactor class
-
-```java
-AgridentInteractor interactor = new AgridentInteractor(context);
-```
-
-This class is eligible for dependency injection with dagger. It needs an AndroidContext module.
-
-- Start listening to rfid events
-
-```java
-interactor.listen().subscribe(new Observer<String>() {
-                                              @Override
-                                              public void onSubscribe(Disposable d) {
-                                                  // Use this disposable to dispose interactor when done
-                                              }
-
-                                              @Override
-                                              public void onNext(String s) {
-                                                  // Get the string read by agrident reader
-                                              }
-
-                                              @Override
-                                              public void onError(Throwable e) {
-                                                  // Receives errors, including timeouts
-                                              }
-
-                                              @Override
-                                              public void onComplete() {
-                                              }
-                                          });
-```
-
-- To trig a read, just call trig ;-)
-
- 
-```java
-interactor.trig();
-```
-
-- To ease timeout handling, it is advised to add a retry observable.
-
-```java
-        interactor.listen()
-            .retry(new TimeoutRetryPredicate())
-            .subscribe();
-```
-
-## Picture Interactor
-
-This interactor is calling default Android activity to take a picture
-
-This interactor needs to be notified when `onActivityResult()` is called
-by Android system. So it is advised to used `ActivityResultNotifier`
-
-- In Activity or Fragment
-
-```java
-public class MyActivityOrFragment {
-    ActivityResultNotifier notifier = ActivityResultNotifier();
-    
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        notifier.onActivityResult(requestCode, resultCode, data);
-    }
+```groovy
+dependencies {
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-android
+    implementation 'org.slf4j:slf4j-android:1.7.30'
 }
 ```
 
-- Create `PictureInteractor` and register it
+You can also bind SLF4J to timber. In this case please use this dependency
 
-
-```java
-public class MyActivityOrFragment {
-    ActivityResultNotifier notifier = ActivityResultNotifier();
-    PictureInteractor interactor;
-    
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        notifier.onActivityResult(requestCode, resultCode, data);
-    }
-    
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate();
-        interactor = PictureInteractor(this /*If this is a context of course */);
-        notifier.add(interactor);
-    }
-    
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        notifier.remove(interactor);
-    }
+```groovy
+dependencies {
+    implementation 'com.arcao:slf4j-timber:3.1'
 }
 ```
 
-- Use RxJava to take a picture then
+To activate verbose logging, please add this into your code :
 
 ```java
+LogDefines.setVerbose(true);
+```
 
-public class MyActivityOrFragment {
-    public void takePicture() {
-        Single<Uri> single = interactor.trig(new File("some/file.jpg"), this /*Activity or Fragment */);
-        single.subscribe(/* Use RxJava here */);
-    }
+Sometimes, it can have log for profiling, in this case, to activate them please add
+this in code :
+
+```java
+LogDefines.setProfile(true);
+```
+
+One `TAG` is used for all logging from lib : `AndroidCountries`. It would be easy to filter on this tag if you
+want to disable all logging from lib. Filtering can be done with `Timber` and a `Tree`
+from [Treessence](https://github.com/bastienpaulfr/Treessence)
+
+
+```groovy
+dependencies {
+    implementation 'fr.bipi.treessence:treessence:0.3.0'
 }
 ```
 
+## License
+
+    Copyright (C) 2020 Bastien Paul
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
