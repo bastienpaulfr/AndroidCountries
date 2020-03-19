@@ -1,0 +1,76 @@
+plugins {
+    id "com.jfrog.bintray" version "1.8.4"
+    id "fr.coppernic.versioning" version "3.1.2"
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'checkstyle'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+
+task checkstyle(type: Checkstyle) {
+    configFile rootProject.file('config/checkstyle.xml')
+    source 'src/main/java'
+    ignoreFailures false
+    showViolations true
+    include '**/*.java'
+
+    classpath = files()
+}
+
+afterEvaluate {
+    if (project.tasks.findByName('check')) {
+        check.dependsOn('checkstyle')
+    }
+}
+
+repositories {
+    google()
+    jcenter()
+    mavenLocal()
+    maven { url "https://jitpack.io" }
+}
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode versioning.info.versionCode
+        versionName versioning.info.display
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            ext.alwaysUpdateBuildId = false
+        }
+    }
+
+    testOptions {
+        unitTests {
+            returnDefaultValues = true
+            includeAndroidResources = true
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/main.kotlin_module'
+        exclude 'META-INF/lib_release.kotlin_module'
+    }
+}
+
+dependencies {
+    // Kotlin
+    //implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+apply from: rootProject.file('gradle/gradle-publish.gradle')

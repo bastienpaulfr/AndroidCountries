@@ -17,4 +17,4 @@ include 'services:webservice'
 
 rootProject.name = 'AndroidCountries'
 
-include ':countries'
+include ':countries', 'flags'
