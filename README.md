@@ -1,5 +1,5 @@
-[![Download](https://api.bintray.com/packages/coppernic/maven/AndroidCountries/images/download.svg)](https://bintray.com/coppernic/maven/AndroidCountries/_latestVersion)
-[![Build Status](https://travis-ci.org/Coppernic/AndroidCountries.svg?branch=master)](https://travis-ci.org/Coppernic/AndroidCountries)
+[![Download](https://api.bintray.com/packages/bastienpaulfr/maven/AndroidCountries/images/download.svg)](https://bintray.com/bastienpaulfr/maven/AndroidCountries/_latestVersion)
+[![Build Status](https://travis-ci.org/bastienpaulfr/AndroidCountries.svg?branch=master)](https://travis-ci.org/bastienpaulfr/AndroidCountries)
 
 # AndroidCountries
 
