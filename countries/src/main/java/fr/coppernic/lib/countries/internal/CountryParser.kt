@@ -34,6 +34,7 @@ class CountryParser {
     private fun readCountryObject(reader: JsonReader): Country {
         var alpha2Code = ""
         var alpha3Code = ""
+        var mrzCode = ""
         var altSpelling = emptyList<String>()
         var flag = ""
         var name = ""
@@ -47,6 +48,9 @@ class CountryParser {
                 }
                 "alpha3Code" -> {
                     alpha3Code = reader.nextString()
+                }
+                "mrzCode" -> {
+                    mrzCode = reader.nextString()
                 }
                 "altSpellings" -> {
                     altSpelling = readAltSpelling(reader)
@@ -69,7 +73,7 @@ class CountryParser {
             }
         }
         reader.endObject()
-        return Country(alpha2Code, alpha3Code, altSpelling, flag, name, nativeName, translation)
+        return Country(alpha2Code, alpha3Code, mrzCode, altSpelling, flag, name, nativeName, translation)
     }
 
     private fun readAltSpelling(reader: JsonReader): List<String> {

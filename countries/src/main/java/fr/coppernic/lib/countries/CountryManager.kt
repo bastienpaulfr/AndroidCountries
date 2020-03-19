@@ -18,6 +18,10 @@ class CountryManager(context: Context) {
         countries.map { it.alpha3Code to it }.toMap()
     }
 
+    val countryByMrzCode: Map<String, Country> by lazy {
+        countries.map { it.mrzCode to it }.toMap()
+    }
+
     val countryByName: Map<String, Country> by lazy {
         countries.map { it.name to it }.toMap()
     }

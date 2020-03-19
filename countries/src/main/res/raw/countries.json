@@ -2,6 +2,7 @@
   {
     "alpha2Code": "AF",
     "alpha3Code": "AFG",
+    "mrzCode": "AFG",
     "altSpellings": [
       "AF",
       "Afġānistān"
@@ -25,6 +26,7 @@
   {
     "alpha2Code": "AX",
     "alpha3Code": "ALA",
+    "mrzCode": "ALA",
     "altSpellings": [
       "AX",
       "Aaland",
@@ -50,6 +52,7 @@
   {
     "alpha2Code": "AL",
     "alpha3Code": "ALB",
+    "mrzCode": "ALB",
     "altSpellings": [
       "AL",
       "Shqipëri",
@@ -75,6 +78,7 @@
   {
     "alpha2Code": "DZ",
     "alpha3Code": "DZA",
+    "mrzCode": "DZA",
     "altSpellings": [
       "DZ",
       "Dzayer",
@@ -99,6 +103,7 @@
   {
     "alpha2Code": "AS",
     "alpha3Code": "ASM",
+    "mrzCode": "ASM",
     "altSpellings": [
       "AS",
       "Amerika Sāmoa",
@@ -124,6 +129,7 @@
   {
     "alpha2Code": "AD",
     "alpha3Code": "AND",
+    "mrzCode": "AND",
     "altSpellings": [
       "AD",
       "Principality of Andorra",
@@ -148,6 +154,7 @@
   {
     "alpha2Code": "AO",
     "alpha3Code": "AGO",
+    "mrzCode": "AGO",
     "altSpellings": [
       "AO",
       "República de Angola",
@@ -172,6 +179,7 @@
   {
     "alpha2Code": "AI",
     "alpha3Code": "AIA",
+    "mrzCode": "AIA",
     "altSpellings": [
       "AI"
     ],
@@ -194,6 +202,7 @@
   {
     "alpha2Code": "AQ",
     "alpha3Code": "ATA",
+    "mrzCode": "ATA",
     "altSpellings": [],
     "flag": "https://restcountries.eu/data/ata.svg",
     "name": "Antarctica",
@@ -214,6 +223,7 @@
   {
     "alpha2Code": "AG",
     "alpha3Code": "ATG",
+    "mrzCode": "ATG",
     "altSpellings": [
       "AG"
     ],
@@ -236,6 +246,7 @@
   {
     "alpha2Code": "AR",
     "alpha3Code": "ARG",
+    "mrzCode": "ARG",
     "altSpellings": [
       "AR",
       "Argentine Republic",
@@ -260,6 +271,7 @@
   {
     "alpha2Code": "AM",
     "alpha3Code": "ARM",
+    "mrzCode": "ARM",
     "altSpellings": [
       "AM",
       "Hayastan",
@@ -285,6 +297,7 @@
   {
     "alpha2Code": "AW",
     "alpha3Code": "ABW",
+    "mrzCode": "ABW",
     "altSpellings": [
       "AW"
     ],
@@ -307,6 +320,7 @@
   {
     "alpha2Code": "AU",
     "alpha3Code": "AUS",
+    "mrzCode": "AUS",
     "altSpellings": [
       "AU"
     ],
@@ -329,6 +343,7 @@
   {
     "alpha2Code": "AT",
     "alpha3Code": "AUT",
+    "mrzCode": "AUT",
     "altSpellings": [
       "AT",
       "Österreich",
@@ -354,6 +369,7 @@
   {
     "alpha2Code": "AZ",
     "alpha3Code": "AZE",
+    "mrzCode": "AZE",
     "altSpellings": [
       "AZ",
       "Republic of Azerbaijan",
@@ -378,6 +394,7 @@
   {
     "alpha2Code": "BS",
     "alpha3Code": "BHS",
+    "mrzCode": "BHS",
     "altSpellings": [
       "BS",
       "Commonwealth of the Bahamas"
@@ -401,6 +418,7 @@
   {
     "alpha2Code": "BH",
     "alpha3Code": "BHR",
+    "mrzCode": "BHR",
     "altSpellings": [
       "BH",
       "Kingdom of Bahrain",
@@ -425,6 +443,7 @@
   {
     "alpha2Code": "BD",
     "alpha3Code": "BGD",
+    "mrzCode": "BGD",
     "altSpellings": [
       "BD",
       "People's Republic of Bangladesh",
@@ -449,6 +468,7 @@
   {
     "alpha2Code": "BB",
     "alpha3Code": "BRB",
+    "mrzCode": "BRB",
     "altSpellings": [
       "BB"
     ],
@@ -471,6 +491,7 @@
   {
     "alpha2Code": "BY",
     "alpha3Code": "BLR",
+    "mrzCode": "BLR",
     "altSpellings": [
       "BY",
       "Bielaruś",
@@ -499,6 +520,7 @@
   {
     "alpha2Code": "BE",
     "alpha3Code": "BEL",
+    "mrzCode": "BEL",
     "altSpellings": [
       "BE",
       "België",
@@ -529,6 +551,7 @@
   {
     "alpha2Code": "BZ",
     "alpha3Code": "BLZ",
+    "mrzCode": "BLZ",
     "altSpellings": [
       "BZ"
     ],
@@ -551,6 +574,7 @@
   {
     "alpha2Code": "BJ",
     "alpha3Code": "BEN",
+    "mrzCode": "BEN",
     "altSpellings": [
       "BJ",
       "Republic of Benin",
@@ -575,6 +599,7 @@
   {
     "alpha2Code": "BM",
     "alpha3Code": "BMU",
+    "mrzCode": "BMU",
     "altSpellings": [
       "BM",
       "The Islands of Bermuda",
@@ -600,6 +625,7 @@
   {
     "alpha2Code": "BT",
     "alpha3Code": "BTN",
+    "mrzCode": "BTN",
     "altSpellings": [
       "BT",
       "Kingdom of Bhutan"
@@ -623,6 +649,7 @@
   {
     "alpha2Code": "BO",
     "alpha3Code": "BOL",
+    "mrzCode": "BOL",
     "altSpellings": [
       "BO",
       "Buliwya",
@@ -652,6 +679,7 @@
   {
     "alpha2Code": "BQ",
     "alpha3Code": "BES",
+    "mrzCode": "BES",
     "altSpellings": [
       "BQ",
       "Boneiru"
@@ -675,6 +703,7 @@
   {
     "alpha2Code": "BA",
     "alpha3Code": "BIH",
+    "mrzCode": "BIH",
     "altSpellings": [
       "BA",
       "Bosnia-Herzegovina",
@@ -699,6 +728,7 @@
   {
     "alpha2Code": "BW",
     "alpha3Code": "BWA",
+    "mrzCode": "BWA",
     "altSpellings": [
       "BW",
       "Republic of Botswana",
@@ -723,6 +753,7 @@
   {
     "alpha2Code": "BV",
     "alpha3Code": "BVT",
+    "mrzCode": "BVT",
     "altSpellings": [
       "BV",
       "Bouvetøya",
@@ -747,6 +778,7 @@
   {
     "alpha2Code": "BR",
     "alpha3Code": "BRA",
+    "mrzCode": "BRA",
     "altSpellings": [
       "BR",
       "Brasil",
@@ -772,6 +804,7 @@
   {
     "alpha2Code": "IO",
     "alpha3Code": "IOT",
+    "mrzCode": "IOT",
     "altSpellings": [
       "IO"
     ],
@@ -794,6 +827,7 @@
   {
     "alpha2Code": "UM",
     "alpha3Code": "UMI",
+    "mrzCode": "UMI",
     "altSpellings": [
       "UM"
     ],
@@ -816,6 +850,7 @@
   {
     "alpha2Code": "VG",
     "alpha3Code": "VGB",
+    "mrzCode": "VGB",
     "altSpellings": [
       "VG"
     ],
@@ -838,6 +873,7 @@
   {
     "alpha2Code": "VI",
     "alpha3Code": "VIR",
+    "mrzCode": "VIR",
     "altSpellings": [
       "VI",
       "USVI",
@@ -863,6 +899,7 @@
   {
     "alpha2Code": "BN",
     "alpha3Code": "BRN",
+    "mrzCode": "BRN",
     "altSpellings": [
       "BN",
       "Nation of Brunei",
@@ -887,6 +924,7 @@
   {
     "alpha2Code": "BG",
     "alpha3Code": "BGR",
+    "mrzCode": "BGR",
     "altSpellings": [
       "BG",
       "Republic of Bulgaria",
@@ -911,6 +949,7 @@
   {
     "alpha2Code": "BF",
     "alpha3Code": "BFA",
+    "mrzCode": "BFA",
     "altSpellings": [
       "BF"
     ],
@@ -933,6 +972,7 @@
   {
     "alpha2Code": "BI",
     "alpha3Code": "BDI",
+    "mrzCode": "BDI",
     "altSpellings": [
       "BI",
       "Republic of Burundi",
@@ -958,6 +998,7 @@
   {
     "alpha2Code": "KH",
     "alpha3Code": "KHM",
+    "mrzCode": "KHM",
     "altSpellings": [
       "KH",
       "Kingdom of Cambodia"
@@ -981,6 +1022,7 @@
   {
     "alpha2Code": "CM",
     "alpha3Code": "CMR",
+    "mrzCode": "CMR",
     "altSpellings": [
       "CM",
       "Republic of Cameroon",
@@ -1005,6 +1047,7 @@
   {
     "alpha2Code": "CA",
     "alpha3Code": "CAN",
+    "mrzCode": "CAN",
     "altSpellings": [
       "CA"
     ],
@@ -1027,6 +1070,7 @@
   {
     "alpha2Code": "CV",
     "alpha3Code": "CPV",
+    "mrzCode": "CPV",
     "altSpellings": [
       "CV",
       "Republic of Cabo Verde",
@@ -1051,6 +1095,7 @@
   {
     "alpha2Code": "KY",
     "alpha3Code": "CYM",
+    "mrzCode": "CYM",
     "altSpellings": [
       "KY"
     ],
@@ -1073,6 +1118,7 @@
   {
     "alpha2Code": "CF",
     "alpha3Code": "CAF",
+    "mrzCode": "CAF",
     "altSpellings": [
       "CF",
       "Central African Republic",
@@ -1097,6 +1143,7 @@
   {
     "alpha2Code": "TD",
     "alpha3Code": "TCD",
+    "mrzCode": "TCD",
     "altSpellings": [
       "TD",
       "Tchad",
@@ -1122,6 +1169,7 @@
   {
     "alpha2Code": "CL",
     "alpha3Code": "CHL",
+    "mrzCode": "CHL",
     "altSpellings": [
       "CL",
       "Republic of Chile",
@@ -1146,6 +1194,7 @@
   {
     "alpha2Code": "CN",
     "alpha3Code": "CHN",
+    "mrzCode": "CHN",
     "altSpellings": [
       "CN",
       "Zhōngguó",
@@ -1174,6 +1223,7 @@
   {
     "alpha2Code": "CX",
     "alpha3Code": "CXR",
+    "mrzCode": "CXR",
     "altSpellings": [
       "CX",
       "Territory of Christmas Island"
@@ -1197,6 +1247,7 @@
   {
     "alpha2Code": "CC",
     "alpha3Code": "CCK",
+    "mrzCode": "CCK",
     "altSpellings": [
       "CC",
       "Territory of the Cocos (Keeling) Islands",
@@ -1221,6 +1272,7 @@
   {
     "alpha2Code": "CO",
     "alpha3Code": "COL",
+    "mrzCode": "COL",
     "altSpellings": [
       "CO",
       "Republic of Colombia",
@@ -1245,6 +1297,7 @@
   {
     "alpha2Code": "KM",
     "alpha3Code": "COM",
+    "mrzCode": "COM",
     "altSpellings": [
       "KM",
       "Union of the Comoros",
@@ -1271,6 +1324,7 @@
   {
     "alpha2Code": "CG",
     "alpha3Code": "COG",
+    "mrzCode": "COG",
     "altSpellings": [
       "CG",
       "Congo-Brazzaville"
@@ -1294,6 +1348,7 @@
   {
     "alpha2Code": "CD",
     "alpha3Code": "COD",
+    "mrzCode": "COD",
     "altSpellings": [
       "CD",
       "DR Congo",
@@ -1319,6 +1374,7 @@
   {
     "alpha2Code": "CK",
     "alpha3Code": "COK",
+    "mrzCode": "COK",
     "altSpellings": [
       "CK",
       "Kūki 'Āirani"
@@ -1342,6 +1398,7 @@
   {
     "alpha2Code": "CR",
     "alpha3Code": "CRI",
+    "mrzCode": "CRI",
     "altSpellings": [
       "CR",
       "Republic of Costa Rica",
@@ -1366,6 +1423,7 @@
   {
     "alpha2Code": "HR",
     "alpha3Code": "HRV",
+    "mrzCode": "HRV",
     "altSpellings": [
       "HR",
       "Hrvatska",
@@ -1391,6 +1449,7 @@
   {
     "alpha2Code": "CU",
     "alpha3Code": "CUB",
+    "mrzCode": "CUB",
     "altSpellings": [
       "CU",
       "Republic of Cuba",
@@ -1415,6 +1474,7 @@
   {
     "alpha2Code": "CW",
     "alpha3Code": "CUW",
+    "mrzCode": "CUW",
     "altSpellings": [
       "CW",
       "Curacao",
@@ -1442,6 +1502,7 @@
   {
     "alpha2Code": "CY",
     "alpha3Code": "CYP",
+    "mrzCode": "CYP",
     "altSpellings": [
       "CY",
       "Kýpros",
@@ -1469,6 +1530,7 @@
   {
     "alpha2Code": "CZ",
     "alpha3Code": "CZE",
+    "mrzCode": "CZE",
     "altSpellings": [
       "CZ",
       "Česká republika",
@@ -1493,6 +1555,7 @@
   {
     "alpha2Code": "DK",
     "alpha3Code": "DNK",
+    "mrzCode": "DNK",
     "altSpellings": [
       "DK",
       "Danmark",
@@ -1518,6 +1581,7 @@
   {
     "alpha2Code": "DJ",
     "alpha3Code": "DJI",
+    "mrzCode": "DJI",
     "altSpellings": [
       "DJ",
       "Jabuuti",
@@ -1546,6 +1610,7 @@
   {
     "alpha2Code": "DM",
     "alpha3Code": "DMA",
+    "mrzCode": "DMA",
     "altSpellings": [
       "DM",
       "Dominique",
@@ -1571,6 +1636,7 @@
   {
     "alpha2Code": "DO",
     "alpha3Code": "DOM",
+    "mrzCode": "DOM",
     "altSpellings": [
       "DO"
     ],
@@ -1593,6 +1659,7 @@
   {
     "alpha2Code": "EC",
     "alpha3Code": "ECU",
+    "mrzCode": "ECU",
     "altSpellings": [
       "EC",
       "Republic of Ecuador",
@@ -1617,6 +1684,7 @@
   {
     "alpha2Code": "EG",
     "alpha3Code": "EGY",
+    "mrzCode": "EGY",
     "altSpellings": [
       "EG",
       "Arab Republic of Egypt"
@@ -1640,6 +1708,7 @@
   {
     "alpha2Code": "SV",
     "alpha3Code": "SLV",
+    "mrzCode": "SLV",
     "altSpellings": [
       "SV",
       "Republic of El Salvador",
@@ -1664,6 +1733,7 @@
   {
     "alpha2Code": "GQ",
     "alpha3Code": "GNQ",
+    "mrzCode": "GNQ",
     "altSpellings": [
       "GQ",
       "Republic of Equatorial Guinea",
@@ -1690,6 +1760,7 @@
   {
     "alpha2Code": "ER",
     "alpha3Code": "ERI",
+    "mrzCode": "ERI",
     "altSpellings": [
       "ER",
       "State of Eritrea",
@@ -1718,6 +1789,7 @@
   {
     "alpha2Code": "EE",
     "alpha3Code": "EST",
+    "mrzCode": "EST",
     "altSpellings": [
       "EE",
       "Eesti",
@@ -1743,6 +1815,7 @@
   {
     "alpha2Code": "ET",
     "alpha3Code": "ETH",
+    "mrzCode": "ETH",
     "altSpellings": [
       "ET",
       "ʾĪtyōṗṗyā",
@@ -1768,6 +1841,7 @@
   {
     "alpha2Code": "FK",
     "alpha3Code": "FLK",
+    "mrzCode": "FLK",
     "altSpellings": [
       "FK",
       "Islas Malvinas"
@@ -1791,6 +1865,7 @@
   {
     "alpha2Code": "FO",
     "alpha3Code": "FRO",
+    "mrzCode": "FRO",
     "altSpellings": [
       "FO",
       "Føroyar",
@@ -1815,6 +1890,7 @@
   {
     "alpha2Code": "FJ",
     "alpha3Code": "FJI",
+    "mrzCode": "FJI",
     "altSpellings": [
       "FJ",
       "Viti",
@@ -1841,6 +1917,7 @@
   {
     "alpha2Code": "FI",
     "alpha3Code": "FIN",
+    "mrzCode": "FIN",
     "altSpellings": [
       "FI",
       "Suomi",
@@ -1867,6 +1944,7 @@
   {
     "alpha2Code": "FR",
     "alpha3Code": "FRA",
+    "mrzCode": "FRA",
     "altSpellings": [
       "FR",
       "French Republic",
@@ -1891,6 +1969,7 @@
   {
     "alpha2Code": "GF",
     "alpha3Code": "GUF",
+    "mrzCode": "GUF",
     "altSpellings": [
       "GF",
       "Guiana",
@@ -1915,6 +1994,7 @@
   {
     "alpha2Code": "PF",
     "alpha3Code": "PYF",
+    "mrzCode": "PYF",
     "altSpellings": [
       "PF",
       "Polynésie française",
@@ -1940,6 +2020,7 @@
   {
     "alpha2Code": "TF",
     "alpha3Code": "ATF",
+    "mrzCode": "ATF",
     "altSpellings": [
       "TF"
     ],
@@ -1962,6 +2043,7 @@
   {
     "alpha2Code": "GA",
     "alpha3Code": "GAB",
+    "mrzCode": "GAB",
     "altSpellings": [
       "GA",
       "Gabonese Republic",
@@ -1986,6 +2068,7 @@
   {
     "alpha2Code": "GM",
     "alpha3Code": "GMB",
+    "mrzCode": "GMB",
     "altSpellings": [
       "GM",
       "Republic of the Gambia"
@@ -2009,6 +2092,7 @@
   {
     "alpha2Code": "GE",
     "alpha3Code": "GEO",
+    "mrzCode": "GEO",
     "altSpellings": [
       "GE",
       "Sakartvelo"
@@ -2032,6 +2116,7 @@
   {
     "alpha2Code": "DE",
     "alpha3Code": "DEU",
+    "mrzCode": "D",
     "altSpellings": [
       "DE",
       "Federal Republic of Germany",
@@ -2056,6 +2141,7 @@
   {
     "alpha2Code": "GH",
     "alpha3Code": "GHA",
+    "mrzCode": "GHA",
     "altSpellings": [
       "GH"
     ],
@@ -2078,6 +2164,7 @@
   {
     "alpha2Code": "GI",
     "alpha3Code": "GIB",
+    "mrzCode": "GIB",
     "altSpellings": [
       "GI"
     ],
@@ -2100,6 +2187,7 @@
   {
     "alpha2Code": "GR",
     "alpha3Code": "GRC",
+    "mrzCode": "GRC",
     "altSpellings": [
       "GR",
       "Elláda",
@@ -2125,6 +2213,7 @@
   {
     "alpha2Code": "GL",
     "alpha3Code": "GRL",
+    "mrzCode": "GRL",
     "altSpellings": [
       "GL",
       "Grønland"
@@ -2148,6 +2237,7 @@
   {
     "alpha2Code": "GD",
     "alpha3Code": "GRD",
+    "mrzCode": "GRD",
     "altSpellings": [
       "GD"
     ],
@@ -2170,6 +2260,7 @@
   {
     "alpha2Code": "GP",
     "alpha3Code": "GLP",
+    "mrzCode": "GLP",
     "altSpellings": [
       "GP",
       "Gwadloup"
@@ -2193,6 +2284,7 @@
   {
     "alpha2Code": "GU",
     "alpha3Code": "GUM",
+    "mrzCode": "GUM",
     "altSpellings": [
       "GU",
       "Guåhån"
@@ -2216,6 +2308,7 @@
   {
     "alpha2Code": "GT",
     "alpha3Code": "GTM",
+    "mrzCode": "GTM",
     "altSpellings": [
       "GT"
     ],
@@ -2238,6 +2331,7 @@
   {
     "alpha2Code": "GG",
     "alpha3Code": "GGY",
+    "mrzCode": "GGY",
     "altSpellings": [
       "GG",
       "Bailiwick of Guernsey",
@@ -2262,6 +2356,7 @@
   {
     "alpha2Code": "GN",
     "alpha3Code": "GIN",
+    "mrzCode": "GIN",
     "altSpellings": [
       "GN",
       "Republic of Guinea",
@@ -2286,6 +2381,7 @@
   {
     "alpha2Code": "GW",
     "alpha3Code": "GNB",
+    "mrzCode": "GNB",
     "altSpellings": [
       "GW",
       "Republic of Guinea-Bissau",
@@ -2310,6 +2406,7 @@
   {
     "alpha2Code": "GY",
     "alpha3Code": "GUY",
+    "mrzCode": "GUY",
     "altSpellings": [
       "GY",
       "Co-operative Republic of Guyana"
@@ -2333,6 +2430,7 @@
   {
     "alpha2Code": "HT",
     "alpha3Code": "HTI",
+    "mrzCode": "HTI",
     "altSpellings": [
       "HT",
       "Republic of Haiti",
@@ -2358,6 +2456,7 @@
   {
     "alpha2Code": "HM",
     "alpha3Code": "HMD",
+    "mrzCode": "HMD",
     "altSpellings": [
       "HM"
     ],
@@ -2380,6 +2479,7 @@
   {
     "alpha2Code": "VA",
     "alpha3Code": "VAT",
+    "mrzCode": "VAT",
     "altSpellings": [
       "Sancta Sedes",
       "Vatican",
@@ -2404,6 +2504,7 @@
   {
     "alpha2Code": "HN",
     "alpha3Code": "HND",
+    "mrzCode": "HND",
     "altSpellings": [
       "HN",
       "Republic of Honduras",
@@ -2428,6 +2529,7 @@
   {
     "alpha2Code": "HK",
     "alpha3Code": "HKG",
+    "mrzCode": "HKG",
     "altSpellings": [
       "HK",
       "香港"
@@ -2451,6 +2553,7 @@
   {
     "alpha2Code": "HU",
     "alpha3Code": "HUN",
+    "mrzCode": "HUN",
     "altSpellings": [
       "HU"
     ],
@@ -2473,6 +2576,7 @@
   {
     "alpha2Code": "IS",
     "alpha3Code": "ISL",
+    "mrzCode": "ISL",
     "altSpellings": [
       "IS",
       "Island",
@@ -2498,6 +2602,7 @@
   {
     "alpha2Code": "IN",
     "alpha3Code": "IND",
+    "mrzCode": "IND",
     "altSpellings": [
       "IN",
       "Bhārat",
@@ -2523,6 +2628,7 @@
   {
     "alpha2Code": "ID",
     "alpha3Code": "IDN",
+    "mrzCode": "IDN",
     "altSpellings": [
       "ID",
       "Republic of Indonesia",
@@ -2547,6 +2653,7 @@
   {
     "alpha2Code": "CI",
     "alpha3Code": "CIV",
+    "mrzCode": "CIV",
     "altSpellings": [
       "CI",
       "Ivory Coast",
@@ -2572,6 +2679,7 @@
   {
     "alpha2Code": "IR",
     "alpha3Code": "IRN",
+    "mrzCode": "IRN",
     "altSpellings": [
       "IR",
       "Islamic Republic of Iran",
@@ -2596,6 +2704,7 @@
   {
     "alpha2Code": "IQ",
     "alpha3Code": "IRQ",
+    "mrzCode": "IRQ",
     "altSpellings": [
       "IQ",
       "Republic of Iraq",
@@ -2620,6 +2729,7 @@
   {
     "alpha2Code": "IE",
     "alpha3Code": "IRL",
+    "mrzCode": "IRL",
     "altSpellings": [
       "IE",
       "Éire",
@@ -2645,6 +2755,7 @@
   {
     "alpha2Code": "IM",
     "alpha3Code": "IMN",
+    "mrzCode": "IMN",
     "altSpellings": [
       "IM",
       "Ellan Vannin",
@@ -2670,6 +2781,7 @@
   {
     "alpha2Code": "IL",
     "alpha3Code": "ISR",
+    "mrzCode": "ISR",
     "altSpellings": [
       "IL",
       "State of Israel",
@@ -2694,6 +2806,7 @@
   {
     "alpha2Code": "IT",
     "alpha3Code": "ITA",
+    "mrzCode": "ITA",
     "altSpellings": [
       "IT",
       "Italian Republic",
@@ -2718,6 +2831,7 @@
   {
     "alpha2Code": "JM",
     "alpha3Code": "JAM",
+    "mrzCode": "JAM",
     "altSpellings": [
       "JM"
     ],
@@ -2740,6 +2854,7 @@
   {
     "alpha2Code": "JP",
     "alpha3Code": "JPN",
+    "mrzCode": "JPN",
     "altSpellings": [
       "JP",
       "Nippon",
@@ -2764,6 +2879,7 @@
   {
     "alpha2Code": "JE",
     "alpha3Code": "JEY",
+    "mrzCode": "JEY",
     "altSpellings": [
       "JE",
       "Bailiwick of Jersey",
@@ -2789,6 +2905,7 @@
   {
     "alpha2Code": "JO",
     "alpha3Code": "JOR",
+    "mrzCode": "JOR",
     "altSpellings": [
       "JO",
       "Hashemite Kingdom of Jordan",
@@ -2813,6 +2930,7 @@
   {
     "alpha2Code": "KZ",
     "alpha3Code": "KAZ",
+    "mrzCode": "KAZ",
     "altSpellings": [
       "KZ",
       "Qazaqstan",
@@ -2842,6 +2960,7 @@
   {
     "alpha2Code": "KE",
     "alpha3Code": "KEN",
+    "mrzCode": "KEN",
     "altSpellings": [
       "KE",
       "Republic of Kenya",
@@ -2866,6 +2985,7 @@
   {
     "alpha2Code": "KI",
     "alpha3Code": "KIR",
+    "mrzCode": "KIR",
     "altSpellings": [
       "KI",
       "Republic of Kiribati",
@@ -2890,6 +3010,7 @@
   {
     "alpha2Code": "KW",
     "alpha3Code": "KWT",
+    "mrzCode": "KWT",
     "altSpellings": [
       "KW",
       "State of Kuwait",
@@ -2914,6 +3035,7 @@
   {
     "alpha2Code": "KG",
     "alpha3Code": "KGZ",
+    "mrzCode": "KGZ",
     "altSpellings": [
       "KG",
       "Киргизия",
@@ -2940,6 +3062,7 @@
   {
     "alpha2Code": "LA",
     "alpha3Code": "LAO",
+    "mrzCode": "LAO",
     "altSpellings": [
       "LA",
       "Lao",
@@ -2966,6 +3089,7 @@
   {
     "alpha2Code": "LV",
     "alpha3Code": "LVA",
+    "mrzCode": "LVA",
     "altSpellings": [
       "LV",
       "Republic of Latvia",
@@ -2990,6 +3114,7 @@
   {
     "alpha2Code": "LB",
     "alpha3Code": "LBN",
+    "mrzCode": "LBN",
     "altSpellings": [
       "LB",
       "Lebanese Republic",
@@ -3014,6 +3139,7 @@
   {
     "alpha2Code": "LS",
     "alpha3Code": "LSO",
+    "mrzCode": "LSO",
     "altSpellings": [
       "LS",
       "Kingdom of Lesotho",
@@ -3038,6 +3164,7 @@
   {
     "alpha2Code": "LR",
     "alpha3Code": "LBR",
+    "mrzCode": "LBR",
     "altSpellings": [
       "LR",
       "Republic of Liberia"
@@ -3061,6 +3188,7 @@
   {
     "alpha2Code": "LY",
     "alpha3Code": "LBY",
+    "mrzCode": "LBY",
     "altSpellings": [
       "LY",
       "State of Libya",
@@ -3085,6 +3213,7 @@
   {
     "alpha2Code": "LI",
     "alpha3Code": "LIE",
+    "mrzCode": "LIE",
     "altSpellings": [
       "LI",
       "Principality of Liechtenstein",
@@ -3109,6 +3238,7 @@
   {
     "alpha2Code": "LT",
     "alpha3Code": "LTU",
+    "mrzCode": "LTU",
     "altSpellings": [
       "LT",
       "Republic of Lithuania",
@@ -3133,6 +3263,7 @@
   {
     "alpha2Code": "LU",
     "alpha3Code": "LUX",
+    "mrzCode": "LUX",
     "altSpellings": [
       "LU",
       "Grand Duchy of Luxembourg",
@@ -3159,6 +3290,7 @@
   {
     "alpha2Code": "MO",
     "alpha3Code": "MAC",
+    "mrzCode": "MAC",
     "altSpellings": [
       "MO",
       "澳门",
@@ -3185,6 +3317,7 @@
   {
     "alpha2Code": "MK",
     "alpha3Code": "MKD",
+    "mrzCode": "MKD",
     "altSpellings": [
       "MK",
       "Republic of Macedonia",
@@ -3209,6 +3342,7 @@
   {
     "alpha2Code": "MG",
     "alpha3Code": "MDG",
+    "mrzCode": "MDG",
     "altSpellings": [
       "MG",
       "Republic of Madagascar",
@@ -3234,6 +3368,7 @@
   {
     "alpha2Code": "MW",
     "alpha3Code": "MWI",
+    "mrzCode": "MWI",
     "altSpellings": [
       "MW",
       "Republic of Malawi"
@@ -3257,6 +3392,7 @@
   {
     "alpha2Code": "MY",
     "alpha3Code": "MYS",
+    "mrzCode": "MYS",
     "altSpellings": [
       "MY"
     ],
@@ -3279,6 +3415,7 @@
   {
     "alpha2Code": "MV",
     "alpha3Code": "MDV",
+    "mrzCode": "MDV",
     "altSpellings": [
       "MV",
       "Maldive Islands",
@@ -3304,6 +3441,7 @@
   {
     "alpha2Code": "ML",
     "alpha3Code": "MLI",
+    "mrzCode": "MLI",
     "altSpellings": [
       "ML",
       "Republic of Mali",
@@ -3328,6 +3466,7 @@
   {
     "alpha2Code": "MT",
     "alpha3Code": "MLT",
+    "mrzCode": "MLT",
     "altSpellings": [
       "MT",
       "Republic of Malta",
@@ -3352,6 +3491,7 @@
   {
     "alpha2Code": "MH",
     "alpha3Code": "MHL",
+    "mrzCode": "MHL",
     "altSpellings": [
       "MH",
       "Republic of the Marshall Islands",
@@ -3376,6 +3516,7 @@
   {
     "alpha2Code": "MQ",
     "alpha3Code": "MTQ",
+    "mrzCode": "MTQ",
     "altSpellings": [
       "MQ"
     ],
@@ -3398,6 +3539,7 @@
   {
     "alpha2Code": "MR",
     "alpha3Code": "MRT",
+    "mrzCode": "MRT",
     "altSpellings": [
       "MR",
       "Islamic Republic of Mauritania",
@@ -3422,6 +3564,7 @@
   {
     "alpha2Code": "MU",
     "alpha3Code": "MUS",
+    "mrzCode": "MUS",
     "altSpellings": [
       "MU",
       "Republic of Mauritius",
@@ -3446,6 +3589,7 @@
   {
     "alpha2Code": "YT",
     "alpha3Code": "MYT",
+    "mrzCode": "MYT",
     "altSpellings": [
       "YT",
       "Department of Mayotte",
@@ -3470,6 +3614,7 @@
   {
     "alpha2Code": "MX",
     "alpha3Code": "MEX",
+    "mrzCode": "MEX",
     "altSpellings": [
       "MX",
       "Mexicanos",
@@ -3495,6 +3640,7 @@
   {
     "alpha2Code": "FM",
     "alpha3Code": "FSM",
+    "mrzCode": "FSM",
     "altSpellings": [
       "FM",
       "Federated States of Micronesia"
@@ -3518,6 +3664,7 @@
   {
     "alpha2Code": "MD",
     "alpha3Code": "MDA",
+    "mrzCode": "MDA",
     "altSpellings": [
       "MD",
       "Republic of Moldova",
@@ -3542,6 +3689,7 @@
   {
     "alpha2Code": "MC",
     "alpha3Code": "MCO",
+    "mrzCode": "MCO",
     "altSpellings": [
       "MC",
       "Principality of Monaco",
@@ -3566,6 +3714,7 @@
   {
     "alpha2Code": "MN",
     "alpha3Code": "MNG",
+    "mrzCode": "MNG",
     "altSpellings": [
       "MN"
     ],
@@ -3588,6 +3737,7 @@
   {
     "alpha2Code": "ME",
     "alpha3Code": "MNE",
+    "mrzCode": "MNE",
     "altSpellings": [
       "ME",
       "Crna Gora"
@@ -3611,6 +3761,7 @@
   {
     "alpha2Code": "MS",
     "alpha3Code": "MSR",
+    "mrzCode": "MSR",
     "altSpellings": [
       "MS"
     ],
@@ -3633,6 +3784,7 @@
   {
     "alpha2Code": "MA",
     "alpha3Code": "MAR",
+    "mrzCode": "MAR",
     "altSpellings": [
       "MA",
       "Kingdom of Morocco",
@@ -3657,6 +3809,7 @@
   {
     "alpha2Code": "MZ",
     "alpha3Code": "MOZ",
+    "mrzCode": "MOZ",
     "altSpellings": [
       "MZ",
       "Republic of Mozambique",
@@ -3681,6 +3834,7 @@
   {
     "alpha2Code": "MM",
     "alpha3Code": "MMR",
+    "mrzCode": "MMR",
     "altSpellings": [
       "MM",
       "Burma",
@@ -3706,6 +3860,7 @@
   {
     "alpha2Code": "NA",
     "alpha3Code": "NAM",
+    "mrzCode": "NAM",
     "altSpellings": [
       "NA",
       "Namibië",
@@ -3730,6 +3885,7 @@
   {
     "alpha2Code": "NR",
     "alpha3Code": "NRU",
+    "mrzCode": "NRU",
     "altSpellings": [
       "NR",
       "Naoero",
@@ -3756,6 +3912,7 @@
   {
     "alpha2Code": "NP",
     "alpha3Code": "NPL",
+    "mrzCode": "NPL",
     "altSpellings": [
       "NP",
       "Federal Democratic Republic of Nepal",
@@ -3780,6 +3937,7 @@
   {
     "alpha2Code": "NL",
     "alpha3Code": "NLD",
+    "mrzCode": "NLD",
     "altSpellings": [
       "NL",
       "Holland",
@@ -3804,6 +3962,7 @@
   {
     "alpha2Code": "NC",
     "alpha3Code": "NCL",
+    "mrzCode": "NCL",
     "altSpellings": [
       "NC"
     ],
@@ -3826,6 +3985,7 @@
   {
     "alpha2Code": "NZ",
     "alpha3Code": "NZL",
+    "mrzCode": "NZL",
     "altSpellings": [
       "NZ",
       "Aotearoa"
@@ -3849,6 +4009,7 @@
   {
     "alpha2Code": "NI",
     "alpha3Code": "NIC",
+    "mrzCode": "NIC",
     "altSpellings": [
       "NI",
       "Republic of Nicaragua",
@@ -3873,6 +4034,7 @@
   {
     "alpha2Code": "NE",
     "alpha3Code": "NER",
+    "mrzCode": "NER",
     "altSpellings": [
       "NE",
       "Nijar",
@@ -3898,6 +4060,7 @@
   {
     "alpha2Code": "NG",
     "alpha3Code": "NGA",
+    "mrzCode": "NGA",
     "altSpellings": [
       "NG",
       "Nijeriya",
@@ -3923,6 +4086,7 @@
   {
     "alpha2Code": "NU",
     "alpha3Code": "NIU",
+    "mrzCode": "NIU",
     "altSpellings": [
       "NU"
     ],
@@ -3945,6 +4109,7 @@
   {
     "alpha2Code": "NF",
     "alpha3Code": "NFK",
+    "mrzCode": "NFK",
     "altSpellings": [
       "NF",
       "Territory of Norfolk Island",
@@ -3969,6 +4134,7 @@
   {
     "alpha2Code": "KP",
     "alpha3Code": "PRK",
+    "mrzCode": "PRK",
     "altSpellings": [
       "KP",
       "Democratic People's Republic of Korea",
@@ -3994,6 +4160,7 @@
   {
     "alpha2Code": "MP",
     "alpha3Code": "MNP",
+    "mrzCode": "MNP",
     "altSpellings": [
       "MP",
       "Commonwealth of the Northern Mariana Islands",
@@ -4018,6 +4185,7 @@
   {
     "alpha2Code": "NO",
     "alpha3Code": "NOR",
+    "mrzCode": "NOR",
     "altSpellings": [
       "NO",
       "Norge",
@@ -4045,6 +4213,7 @@
   {
     "alpha2Code": "OM",
     "alpha3Code": "OMN",
+    "mrzCode": "OMN",
     "altSpellings": [
       "OM",
       "Sultanate of Oman",
@@ -4069,6 +4238,7 @@
   {
     "alpha2Code": "PK",
     "alpha3Code": "PAK",
+    "mrzCode": "PAK",
     "altSpellings": [
       "PK",
       "Pākistān",
@@ -4094,6 +4264,7 @@
   {
     "alpha2Code": "PW",
     "alpha3Code": "PLW",
+    "mrzCode": "PLW",
     "altSpellings": [
       "PW",
       "Republic of Palau",
@@ -4118,6 +4289,7 @@
   {
     "alpha2Code": "PS",
     "alpha3Code": "PSE",
+    "mrzCode": "PSE",
     "altSpellings": [
       "PS",
       "State of Palestine",
@@ -4142,6 +4314,7 @@
   {
     "alpha2Code": "PA",
     "alpha3Code": "PAN",
+    "mrzCode": "PAN",
     "altSpellings": [
       "PA",
       "Republic of Panama",
@@ -4166,6 +4339,7 @@
   {
     "alpha2Code": "PG",
     "alpha3Code": "PNG",
+    "mrzCode": "PNG",
     "altSpellings": [
       "PG",
       "Independent State of Papua New Guinea",
@@ -4190,6 +4364,7 @@
   {
     "alpha2Code": "PY",
     "alpha3Code": "PRY",
+    "mrzCode": "PRY",
     "altSpellings": [
       "PY",
       "Republic of Paraguay",
@@ -4215,6 +4390,7 @@
   {
     "alpha2Code": "PE",
     "alpha3Code": "PER",
+    "mrzCode": "PER",
     "altSpellings": [
       "PE",
       "Republic of Peru",
@@ -4239,6 +4415,7 @@
   {
     "alpha2Code": "PH",
     "alpha3Code": "PHL",
+    "mrzCode": "PHL",
     "altSpellings": [
       "PH",
       "Republic of the Philippines",
@@ -4263,6 +4440,7 @@
   {
     "alpha2Code": "PN",
     "alpha3Code": "PCN",
+    "mrzCode": "PCN",
     "altSpellings": [
       "PN",
       "Pitcairn Henderson Ducie and Oeno Islands"
@@ -4286,6 +4464,7 @@
   {
     "alpha2Code": "PL",
     "alpha3Code": "POL",
+    "mrzCode": "POL",
     "altSpellings": [
       "PL",
       "Republic of Poland",
@@ -4310,6 +4489,7 @@
   {
     "alpha2Code": "PT",
     "alpha3Code": "PRT",
+    "mrzCode": "PRT",
     "altSpellings": [
       "PT",
       "Portuguesa",
@@ -4335,6 +4515,7 @@
   {
     "alpha2Code": "PR",
     "alpha3Code": "PRI",
+    "mrzCode": "PRI",
     "altSpellings": [
       "PR",
       "Commonwealth of Puerto Rico",
@@ -4359,6 +4540,7 @@
   {
     "alpha2Code": "QA",
     "alpha3Code": "QAT",
+    "mrzCode": "QAT",
     "altSpellings": [
       "QA",
       "State of Qatar",
@@ -4383,6 +4565,7 @@
   {
     "alpha2Code": "XK",
     "alpha3Code": "KOS",
+    "mrzCode": "RKS",
     "altSpellings": [
       "XK",
       "Република Косово"
@@ -4406,6 +4589,7 @@
   {
     "alpha2Code": "RE",
     "alpha3Code": "REU",
+    "mrzCode": "REU",
     "altSpellings": [
       "RE",
       "Reunion"
@@ -4429,6 +4613,7 @@
   {
     "alpha2Code": "RO",
     "alpha3Code": "ROU",
+    "mrzCode": "ROU",
     "altSpellings": [
       "RO",
       "Rumania",
@@ -4454,6 +4639,7 @@
   {
     "alpha2Code": "RU",
     "alpha3Code": "RUS",
+    "mrzCode": "RUS",
     "altSpellings": [
       "RU",
       "Rossiya",
@@ -4480,6 +4666,7 @@
   {
     "alpha2Code": "RW",
     "alpha3Code": "RWA",
+    "mrzCode": "RWA",
     "altSpellings": [
       "RW",
       "Republic of Rwanda",
@@ -4505,6 +4692,7 @@
   {
     "alpha2Code": "BL",
     "alpha3Code": "BLM",
+    "mrzCode": "BLM",
     "altSpellings": [
       "BL",
       "St. Barthelemy",
@@ -4530,6 +4718,7 @@
   {
     "alpha2Code": "SH",
     "alpha3Code": "SHN",
+    "mrzCode": "SHN",
     "altSpellings": [
       "SH"
     ],
@@ -4552,6 +4741,7 @@
   {
     "alpha2Code": "KN",
     "alpha3Code": "KNA",
+    "mrzCode": "KNA",
     "altSpellings": [
       "KN",
       "Federation of Saint Christopher and Nevis"
@@ -4575,6 +4765,7 @@
   {
     "alpha2Code": "LC",
     "alpha3Code": "LCA",
+    "mrzCode": "LCA",
     "altSpellings": [
       "LC"
     ],
@@ -4597,6 +4788,7 @@
   {
     "alpha2Code": "MF",
     "alpha3Code": "MAF",
+    "mrzCode": "MAF",
     "altSpellings": [
       "MF",
       "Collectivity of Saint Martin",
@@ -4621,6 +4813,7 @@
   {
     "alpha2Code": "PM",
     "alpha3Code": "SPM",
+    "mrzCode": "SPM",
     "altSpellings": [
       "PM",
       "Collectivité territoriale de Saint-Pierre-et-Miquelon"
@@ -4644,6 +4837,7 @@
   {
     "alpha2Code": "VC",
     "alpha3Code": "VCT",
+    "mrzCode": "VCT",
     "altSpellings": [
       "VC"
     ],
@@ -4666,6 +4860,7 @@
   {
     "alpha2Code": "WS",
     "alpha3Code": "WSM",
+    "mrzCode": "WSM",
     "altSpellings": [
       "WS",
       "Independent State of Samoa",
@@ -4690,6 +4885,7 @@
   {
     "alpha2Code": "SM",
     "alpha3Code": "SMR",
+    "mrzCode": "SMR",
     "altSpellings": [
       "SM",
       "Republic of San Marino",
@@ -4714,6 +4910,7 @@
   {
     "alpha2Code": "ST",
     "alpha3Code": "STP",
+    "mrzCode": "STP",
     "altSpellings": [
       "ST",
       "Democratic Republic of São Tomé and Príncipe",
@@ -4738,6 +4935,7 @@
   {
     "alpha2Code": "SA",
     "alpha3Code": "SAU",
+    "mrzCode": "SAU",
     "altSpellings": [
       "SA",
       "Kingdom of Saudi Arabia",
@@ -4762,6 +4960,7 @@
   {
     "alpha2Code": "SN",
     "alpha3Code": "SEN",
+    "mrzCode": "SEN",
     "altSpellings": [
       "SN",
       "Republic of Senegal",
@@ -4786,6 +4985,7 @@
   {
     "alpha2Code": "RS",
     "alpha3Code": "SRB",
+    "mrzCode": "SRB",
     "altSpellings": [
       "RS",
       "Srbija",
@@ -4812,6 +5012,7 @@
   {
     "alpha2Code": "SC",
     "alpha3Code": "SYC",
+    "mrzCode": "SYC",
     "altSpellings": [
       "SC",
       "Republic of Seychelles",
@@ -4837,6 +5038,7 @@
   {
     "alpha2Code": "SL",
     "alpha3Code": "SLE",
+    "mrzCode": "SLE",
     "altSpellings": [
       "SL",
       "Republic of Sierra Leone"
@@ -4860,6 +5062,7 @@
   {
     "alpha2Code": "SG",
     "alpha3Code": "SGP",
+    "mrzCode": "SGP",
     "altSpellings": [
       "SG",
       "Singapura",
@@ -4885,6 +5088,7 @@
   {
     "alpha2Code": "SX",
     "alpha3Code": "SXM",
+    "mrzCode": "SXM",
     "altSpellings": [
       "SX"
     ],
@@ -4907,6 +5111,7 @@
   {
     "alpha2Code": "SK",
     "alpha3Code": "SVK",
+    "mrzCode": "SVK",
     "altSpellings": [
       "SK",
       "Slovak Republic",
@@ -4931,6 +5136,7 @@
   {
     "alpha2Code": "SI",
     "alpha3Code": "SVN",
+    "mrzCode": "SVN",
     "altSpellings": [
       "SI",
       "Republic of Slovenia",
@@ -4955,6 +5161,7 @@
   {
     "alpha2Code": "SB",
     "alpha3Code": "SLB",
+    "mrzCode": "SLB",
     "altSpellings": [
       "SB"
     ],
@@ -4977,6 +5184,7 @@
   {
     "alpha2Code": "SO",
     "alpha3Code": "SOM",
+    "mrzCode": "SOM",
     "altSpellings": [
       "SO",
       "aṣ-Ṣūmāl",
@@ -5003,6 +5211,7 @@
   {
     "alpha2Code": "ZA",
     "alpha3Code": "ZAF",
+    "mrzCode": "ZAF",
     "altSpellings": [
       "ZA",
       "RSA",
@@ -5028,6 +5237,7 @@
   {
     "alpha2Code": "GS",
     "alpha3Code": "SGS",
+    "mrzCode": "SGS",
     "altSpellings": [
       "GS",
       "South Georgia and the South Sandwich Islands"
@@ -5051,6 +5261,7 @@
   {
     "alpha2Code": "KR",
     "alpha3Code": "KOR",
+    "mrzCode": "KOR",
     "altSpellings": [
       "KR",
       "Republic of Korea"
@@ -5074,6 +5285,7 @@
   {
     "alpha2Code": "SS",
     "alpha3Code": "SSD",
+    "mrzCode": "SSD",
     "altSpellings": [
       "SS"
     ],
@@ -5096,6 +5308,7 @@
   {
     "alpha2Code": "ES",
     "alpha3Code": "ESP",
+    "mrzCode": "ESP",
     "altSpellings": [
       "ES",
       "Kingdom of Spain",
@@ -5120,6 +5333,7 @@
   {
     "alpha2Code": "LK",
     "alpha3Code": "LKA",
+    "mrzCode": "LKA",
     "altSpellings": [
       "LK",
       "ilaṅkai",
@@ -5144,6 +5358,7 @@
   {
     "alpha2Code": "SD",
     "alpha3Code": "SDN",
+    "mrzCode": "SDN",
     "altSpellings": [
       "SD",
       "Republic of the Sudan",
@@ -5168,6 +5383,7 @@
   {
     "alpha2Code": "SR",
     "alpha3Code": "SUR",
+    "mrzCode": "SUR",
     "altSpellings": [
       "SR",
       "Sarnam",
@@ -5194,6 +5410,7 @@
   {
     "alpha2Code": "SJ",
     "alpha3Code": "SJM",
+    "mrzCode": "SJM",
     "altSpellings": [
       "SJ",
       "Svalbard and Jan Mayen Islands"
@@ -5217,6 +5434,7 @@
   {
     "alpha2Code": "SZ",
     "alpha3Code": "SWZ",
+    "mrzCode": "SWZ",
     "altSpellings": [
       "SZ",
       "weSwatini",
@@ -5244,6 +5462,7 @@
   {
     "alpha2Code": "SE",
     "alpha3Code": "SWE",
+    "mrzCode": "SWE",
     "altSpellings": [
       "SE",
       "Kingdom of Sweden",
@@ -5268,6 +5487,7 @@
   {
     "alpha2Code": "CH",
     "alpha3Code": "CHE",
+    "mrzCode": "CHE",
     "altSpellings": [
       "CH",
       "Swiss Confederation",
@@ -5295,6 +5515,7 @@
   {
     "alpha2Code": "SY",
     "alpha3Code": "SYR",
+    "mrzCode": "SYR",
     "altSpellings": [
       "SY",
       "Syrian Arab Republic",
@@ -5319,6 +5540,7 @@
   {
     "alpha2Code": "TW",
     "alpha3Code": "TWN",
+    "mrzCode": "TWN",
     "altSpellings": [
       "TW",
       "Táiwān",
@@ -5345,6 +5567,7 @@
   {
     "alpha2Code": "TJ",
     "alpha3Code": "TJK",
+    "mrzCode": "TJK",
     "altSpellings": [
       "TJ",
       "Toçikiston",
@@ -5371,6 +5594,7 @@
   {
     "alpha2Code": "TZ",
     "alpha3Code": "TZA",
+    "mrzCode": "TZA",
     "altSpellings": [
       "TZ",
       "United Republic of Tanzania",
@@ -5395,6 +5619,7 @@
   {
     "alpha2Code": "TH",
     "alpha3Code": "THA",
+    "mrzCode": "THA",
     "altSpellings": [
       "TH",
       "Prathet",
@@ -5422,6 +5647,7 @@
   {
     "alpha2Code": "TL",
     "alpha3Code": "TLS",
+    "mrzCode": "TLS",
     "altSpellings": [
       "TL",
       "East Timor",
@@ -5448,6 +5674,7 @@
   {
     "alpha2Code": "TG",
     "alpha3Code": "TGO",
+    "mrzCode": "TGO",
     "altSpellings": [
       "TG",
       "Togolese",
@@ -5473,6 +5700,7 @@
   {
     "alpha2Code": "TK",
     "alpha3Code": "TKL",
+    "mrzCode": "TKL",
     "altSpellings": [
       "TK"
     ],
@@ -5495,6 +5723,7 @@
   {
     "alpha2Code": "TO",
     "alpha3Code": "TON",
+    "mrzCode": "TON",
     "altSpellings": [
       "TO"
     ],
@@ -5517,6 +5746,7 @@
   {
     "alpha2Code": "TT",
     "alpha3Code": "TTO",
+    "mrzCode": "TTO",
     "altSpellings": [
       "TT",
       "Republic of Trinidad and Tobago"
@@ -5540,6 +5770,7 @@
   {
     "alpha2Code": "TN",
     "alpha3Code": "TUN",
+    "mrzCode": "TUN",
     "altSpellings": [
       "TN",
       "Republic of Tunisia",
@@ -5564,6 +5795,7 @@
   {
     "alpha2Code": "TR",
     "alpha3Code": "TUR",
+    "mrzCode": "TUR",
     "altSpellings": [
       "TR",
       "Turkiye",
@@ -5589,6 +5821,7 @@
   {
     "alpha2Code": "TM",
     "alpha3Code": "TKM",
+    "mrzCode": "TKM",
     "altSpellings": [
       "TM"
     ],
@@ -5611,6 +5844,7 @@
   {
     "alpha2Code": "TC",
     "alpha3Code": "TCA",
+    "mrzCode": "TCA",
     "altSpellings": [
       "TC"
     ],
@@ -5633,6 +5867,7 @@
   {
     "alpha2Code": "TV",
     "alpha3Code": "TUV",
+    "mrzCode": "TUV",
     "altSpellings": [
       "TV"
     ],
@@ -5655,6 +5890,7 @@
   {
     "alpha2Code": "UG",
     "alpha3Code": "UGA",
+    "mrzCode": "UGA",
     "altSpellings": [
       "UG",
       "Republic of Uganda",
@@ -5679,6 +5915,7 @@
   {
     "alpha2Code": "UA",
     "alpha3Code": "UKR",
+    "mrzCode": "UKR",
     "altSpellings": [
       "UA",
       "Ukrayina"
@@ -5702,6 +5939,7 @@
   {
     "alpha2Code": "AE",
     "alpha3Code": "ARE",
+    "mrzCode": "ARE",
     "altSpellings": [
       "AE",
       "UAE"
@@ -5725,6 +5963,7 @@
   {
     "alpha2Code": "GB",
     "alpha3Code": "GBR",
+    "mrzCode": "GBR",
     "altSpellings": [
       "GB",
       "UK",
@@ -5749,6 +5988,7 @@
   {
     "alpha2Code": "US",
     "alpha3Code": "USA",
+    "mrzCode": "USA",
     "altSpellings": [
       "US",
       "USA",
@@ -5773,6 +6013,7 @@
   {
     "alpha2Code": "UY",
     "alpha3Code": "URY",
+    "mrzCode": "URY",
     "altSpellings": [
       "UY",
       "Oriental Republic of Uruguay",
@@ -5797,6 +6038,7 @@
   {
     "alpha2Code": "UZ",
     "alpha3Code": "UZB",
+    "mrzCode": "UZB",
     "altSpellings": [
       "UZ",
       "Republic of Uzbekistan",
@@ -5822,6 +6064,7 @@
   {
     "alpha2Code": "VU",
     "alpha3Code": "VUT",
+    "mrzCode": "VUT",
     "altSpellings": [
       "VU",
       "Republic of Vanuatu",
@@ -5847,6 +6090,7 @@
   {
     "alpha2Code": "VE",
     "alpha3Code": "VEN",
+    "mrzCode": "VEN",
     "altSpellings": [
       "VE",
       "Bolivarian Republic of Venezuela",
@@ -5871,6 +6115,7 @@
   {
     "alpha2Code": "VN",
     "alpha3Code": "VNM",
+    "mrzCode": "VNM",
     "altSpellings": [
       "VN",
       "Socialist Republic of Vietnam",
@@ -5895,6 +6140,7 @@
   {
     "alpha2Code": "WF",
     "alpha3Code": "WLF",
+    "mrzCode": "WLF",
     "altSpellings": [
       "WF",
       "Territory of the Wallis and Futuna Islands",
@@ -5919,6 +6165,7 @@
   {
     "alpha2Code": "EH",
     "alpha3Code": "ESH",
+    "mrzCode": "ESH",
     "altSpellings": [
       "EH",
       "Taneẓroft Tutrimt"
@@ -5942,6 +6189,7 @@
   {
     "alpha2Code": "YE",
     "alpha3Code": "YEM",
+    "mrzCode": "YEM",
     "altSpellings": [
       "YE",
       "Yemeni Republic",
@@ -5966,6 +6214,7 @@
   {
     "alpha2Code": "ZM",
     "alpha3Code": "ZMB",
+    "mrzCode": "ZMB",
     "altSpellings": [
       "ZM",
       "Republic of Zambia"
@@ -5989,6 +6238,7 @@
   {
     "alpha2Code": "ZW",
     "alpha3Code": "ZWE",
+    "mrzCode": "ZWE",
     "altSpellings": [
       "ZW",
       "Republic of Zimbabwe"
@@ -6007,6 +6257,31 @@
       "nl": "Zimbabwe",
       "hr": "Zimbabve",
       "fa": "زیمباوه"
+    }
+  },
+  {
+    "alpha2Code": "EU",
+    "alpha3Code": "EUE",
+    "mrzCode": "EUE",
+    "altSpellings": [
+      "EN",
+      "European Union",
+      "Union Européenne"
+    ],
+    "flag": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne#/media/Fichier:Flag_of_Europe.svg",
+    "name": "European Union",
+    "nativeName": "European Union",
+    "translations": {
+      "de": "Europäische Union",
+      "es": "Unión Europea",
+      "fr": "Union européenne",
+      "ja": "欧州連合",
+      "it": "Unione europea",
+      "br": "União Europeia",
+      "pt": "União Europeia",
+      "nl": "Europese Unie",
+      "hr": "Europska unija",
+      "fa": "اتحادیه اروپا ی"
     }
   }
 ]

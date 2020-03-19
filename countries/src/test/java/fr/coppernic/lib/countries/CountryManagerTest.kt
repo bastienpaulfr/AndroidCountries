@@ -22,17 +22,22 @@ class CountryManagerTest : RobolectricTest() {
     }
 
     @Test
-    fun getCountriesByAlpha2Code() {
+    fun getCountryByAlpha2Code() {
         (countryManager.countryByAlpha2Code["FR"] ?: error("")).name.`should be equal to`("France")
     }
 
     @Test
-    fun getCountriesByAlpha3Code() {
+    fun getCountryByAlpha3Code() {
         (countryManager.countryByAlpha3Code["FRA"] ?: error("")).name.`should be equal to`("France")
     }
 
     @Test
-    fun getCountriesByName() {
+    fun getCountryByMrzCode() {
+        (countryManager.countryByMrzCode["D"] ?: error("")).name.`should be equal to`("Germany")
+    }
+
+    @Test
+    fun getCountryByName() {
         (countryManager.countryByName["France"] ?: error("")).name.`should be equal to`("France")
     }
 }

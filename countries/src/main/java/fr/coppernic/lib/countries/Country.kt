@@ -10,6 +10,10 @@ data class Country(
          */
         val alpha3Code: String,
         /**
+         * Code used in machine readable passport
+         */
+        val mrzCode: String,
+        /**
          * Alternative spelling of country name
          */
         val altSpellings: List<String>,

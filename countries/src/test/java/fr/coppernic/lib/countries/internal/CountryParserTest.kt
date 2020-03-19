@@ -14,6 +14,7 @@ class CountryParserTest : RobolectricTest() {
             "  {\n" +
             "    \"alpha2Code\": \"AF\",\n" +
             "    \"alpha3Code\": \"AFG\",\n" +
+            "    \"mrzCode\": \"AFG\",\n" +
             "    \"altSpellings\": [\n" +
             "      \"AF\",\n" +
             "      \"Afġānistān\"\n" +
@@ -37,6 +38,7 @@ class CountryParserTest : RobolectricTest() {
             "  {\n" +
             "    \"alpha2Code\": \"AX\",\n" +
             "    \"alpha3Code\": \"ALA\",\n" +
+            "    \"mrzCode\": \"ALA\",\n" +
             "    \"altSpellings\": [\n" +
             "      \"AX\",\n" +
             "      \"Aaland\",\n" +
@@ -75,6 +77,7 @@ class CountryParserTest : RobolectricTest() {
                 Country(
                         alpha2Code = "AF",
                         alpha3Code = "AFG",
+                        mrzCode = "AFG",
                         altSpellings = listOf(
                                 "AF",
                                 "Afġānistān"
@@ -98,6 +101,7 @@ class CountryParserTest : RobolectricTest() {
                 Country(
                         alpha2Code = "AX",
                         alpha3Code = "ALA",
+                        mrzCode = "ALA",
                         altSpellings = listOf(
                                 "AX",
                                 "Aaland",
