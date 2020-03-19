@@ -18,7 +18,7 @@ class CountryManagerTest : RobolectricTest() {
     @Test
     fun getCountries() {
         val countries = countryManager.countries
-        countries.size.`should be equal to`(250)
+        countries.size.`should be equal to`(270)
     }
 
     @Test

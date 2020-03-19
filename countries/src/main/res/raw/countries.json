@@ -6283,5 +6283,461 @@
       "hr": "Europska unija",
       "fa": "اتحادیه اروپا ی"
     }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "GBD",
+    "mrzCode": "GBD",
+    "altSpellings": [
+      "GB",
+      "British Overseas Territories Citizen"
+    ],
+    "flag": "https://restcountries.eu/data/gbr.svg",
+    "name": "British Overseas Territories",
+    "nativeName": "British Overseas Territories",
+    "translations": {
+      "de": "British Overseas Territories",
+      "es": "British Overseas Territories",
+      "fr": "British Overseas Territories",
+      "ja": "British Overseas Territories",
+      "it": "British Overseas Territories",
+      "br": "British Overseas Territories",
+      "pt": "British Overseas Territories",
+      "nl": "British Overseas Territories",
+      "hr": "British Overseas Territories",
+      "fa": "British Overseas Territories"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "GBN",
+    "mrzCode": "GBN",
+    "altSpellings": [
+      "GB",
+      "British National"
+    ],
+    "flag": "https://restcountries.eu/data/gbr.svg",
+    "name": "British National",
+    "nativeName": "British National",
+    "translations": {
+      "de": "British National",
+      "es": "British National",
+      "fr": "British National",
+      "ja": "British National",
+      "it": "British National",
+      "br": "British National",
+      "pt": "British National",
+      "nl": "British National",
+      "hr": "British National",
+      "fa": "British National"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "GBO",
+    "mrzCode": "GBO",
+    "altSpellings": [
+      "GB",
+      "British Overseas Citizen"
+    ],
+    "flag": "https://restcountries.eu/data/gbr.svg",
+    "name": "British Overseas Citizen",
+    "nativeName": "British Overseas Citizen",
+    "translations": {
+      "de": "British Overseas Citizen",
+      "es": "British Overseas Citizen",
+      "fr": "British Overseas Citizen",
+      "ja": "British Overseas Citizen",
+      "it": "British Overseas Citizen",
+      "br": "British Overseas Citizen",
+      "pt": "British Overseas Citizen",
+      "nl": "British Overseas Citizen",
+      "hr": "British Overseas Citizen",
+      "fa": "British Overseas Citizen"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "GBP",
+    "mrzCode": "GBP",
+    "altSpellings": [
+      "GB",
+      "British Protected Person"
+    ],
+    "flag": "https://restcountries.eu/data/gbr.svg",
+    "name": "British Protected Person",
+    "nativeName": "British Protected Person",
+    "translations": {
+      "de": "British Protected Person",
+      "es": "British Protected Person",
+      "fr": "British Protected Person",
+      "ja": "British Protected Person",
+      "it": "British Protected Person",
+      "br": "British Protected Person",
+      "pt": "British Protected Person",
+      "nl": "British Protected Person",
+      "hr": "British Protected Person",
+      "fa": "British Protected Person"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "GBS",
+    "mrzCode": "GBS",
+    "altSpellings": [
+      "GB",
+      "British Subject"
+    ],
+    "flag": "https://restcountries.eu/data/gbr.svg",
+    "name": "British Subject",
+    "nativeName": "British Subject",
+    "translations": {
+      "de": "British Subject",
+      "es": "British Subject",
+      "fr": "British Subject",
+      "ja": "British Subject",
+      "it": "British Subject",
+      "br": "British Subject",
+      "pt": "British Subject",
+      "nl": "British Subject",
+      "hr": "British Subject",
+      "fa": "British Subject"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "UNA",
+    "mrzCode": "UNA",
+    "altSpellings": [
+      "UN",
+      "Specialized agency of the United Nations"
+    ],
+    "flag": "",
+    "name": "Specialized agency of the United Nations",
+    "nativeName": "Specialized agency of the United Nations",
+    "translations": {
+      "de": "Specialized agency of the United Nations",
+      "es": "Specialized agency of the United Nations",
+      "fr": "Specialized agency of the United Nations",
+      "ja": "Specialized agency of the United Nations",
+      "it": "Specialized agency of the United Nations",
+      "br": "Specialized agency of the United Nations",
+      "pt": "Specialized agency of the United Nations",
+      "nl": "Specialized agency of the United Nations",
+      "hr": "Specialized agency of the United Nations",
+      "fa": "Specialized agency of the United Nations"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "UNO",
+    "mrzCode": "UNO",
+    "altSpellings": [
+      "UN",
+      "United Nations"
+    ],
+    "flag": "",
+    "name": "United Nations",
+    "nativeName": "United Nations",
+    "translations": {
+      "de": "United Nations",
+      "es": "United Nations",
+      "fr": "United Nations",
+      "ja": "United Nations",
+      "it": "United Nations",
+      "br": "United Nations",
+      "pt": "United Nations",
+      "nl": "United Nations",
+      "hr": "United Nations",
+      "fa": "United Nations"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "UNO",
+    "mrzCode": "UNO",
+    "altSpellings": [
+      "UN",
+      "United Nations"
+    ],
+    "flag": "",
+    "name": "United Nations",
+    "nativeName": "United Nations",
+    "translations": {
+      "de": "United Nations",
+      "es": "United Nations",
+      "fr": "United Nations",
+      "ja": "United Nations",
+      "it": "United Nations",
+      "br": "United Nations",
+      "pt": "United Nations",
+      "nl": "United Nations",
+      "hr": "United Nations",
+      "fa": "United Nations"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XBA",
+    "mrzCode": "XBA",
+    "altSpellings": [
+      "XBA",
+      "African Development Bank"
+    ],
+    "flag": "",
+    "name": "African Development Bank",
+    "nativeName": "African Development Bank",
+    "translations": {
+      "de": "African Development Bank",
+      "es": "African Development Bank",
+      "fr": "African Development Bank",
+      "ja": "African Development Bank",
+      "it": "African Development Bank",
+      "br": "African Development Bank",
+      "pt": "African Development Bank",
+      "nl": "African Development Bank",
+      "hr": "African Development Bank",
+      "fa": "African Development Bank"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XIM",
+    "mrzCode": "XIM",
+    "altSpellings": [
+      "XIM",
+      "African Export–Import Bank"
+    ],
+    "flag": "",
+    "name": "African Export–Import Bank",
+    "nativeName": "African Export–Import Bank",
+    "translations": {
+      "de": "African Export–Import Bank",
+      "es": "African Export–Import Bank",
+      "fr": "African Export–Import Bank",
+      "ja": "African Export–Import Bank",
+      "it": "African Export–Import Bank",
+      "br": "African Export–Import Bank",
+      "pt": "African Export–Import Bank",
+      "nl": "African Export–Import Bank",
+      "hr": "African Export–Import Bank",
+      "fa": "African Export–Import Bank"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XCC",
+    "mrzCode": "XCC",
+    "altSpellings": [
+      "XCC",
+      "Caribbean Community"
+    ],
+    "flag": "",
+    "name": "Caribbean Community",
+    "nativeName": "Caribbean Community",
+    "translations": {
+      "de": "Caribbean Community",
+      "es": "Caribbean Community",
+      "fr": "Caribbean Community",
+      "ja": "Caribbean Community",
+      "it": "Caribbean Community",
+      "br": "Caribbean Community",
+      "pt": "Caribbean Community",
+      "nl": "Caribbean Community",
+      "hr": "Caribbean Community",
+      "fa": "Caribbean Community"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XCO",
+    "mrzCode": "XCO",
+    "altSpellings": [
+      "XCO",
+      "Common Market for Eastern and Southern Africa"
+    ],
+    "flag": "",
+    "name": "Common Market for Eastern and Southern Africa",
+    "nativeName": "Common Market for Eastern and Southern Africa",
+    "translations": {
+      "de": "Common Market for Eastern and Southern Africa",
+      "es": "Common Market for Eastern and Southern Africa",
+      "fr": "Common Market for Eastern and Southern Africa",
+      "ja": "Common Market for Eastern and Southern Africa",
+      "it": "Common Market for Eastern and Southern Africa",
+      "br": "Common Market for Eastern and Southern Africa",
+      "pt": "Common Market for Eastern and Southern Africa",
+      "nl": "Common Market for Eastern and Southern Africa",
+      "hr": "Common Market for Eastern and Southern Africa",
+      "fa": "Common Market for Eastern and Southern Africa"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XEC",
+    "mrzCode": "XEC",
+    "altSpellings": [
+      "XEC",
+      "Economic Community of West African States"
+    ],
+    "flag": "",
+    "name": "Economic Community of West African States",
+    "nativeName": "Economic Community of West African States",
+    "translations": {
+      "de": "Economic Community of West African States",
+      "es": "Economic Community of West African States",
+      "fr": "Economic Community of West African States",
+      "ja": "Economic Community of West African States",
+      "it": "Economic Community of West African States",
+      "br": "Economic Community of West African States",
+      "pt": "Economic Community of West African States",
+      "nl": "Economic Community of West African States",
+      "hr": "Economic Community of West African States",
+      "fa": "Economic Community of West African States"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XPO",
+    "mrzCode": "XPO",
+    "altSpellings": [
+      "XPO",
+      "International Criminal Police Organization"
+    ],
+    "flag": "",
+    "name": "International Criminal Police Organization",
+    "nativeName": "International Criminal Police Organization",
+    "translations": {
+      "de": "International Criminal Police Organization",
+      "es": "International Criminal Police Organization",
+      "fr": "International Criminal Police Organization",
+      "ja": "International Criminal Police Organization",
+      "it": "International Criminal Police Organization",
+      "br": "International Criminal Police Organization",
+      "pt": "International Criminal Police Organization",
+      "nl": "International Criminal Police Organization",
+      "hr": "International Criminal Police Organization",
+      "fa": "International Criminal Police Organization"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XOM",
+    "mrzCode": "XOM",
+    "altSpellings": [
+      "XOM",
+      "Sovereign Military Order of Malta"
+    ],
+    "flag": "",
+    "name": "Sovereign Military Order of Malta",
+    "nativeName": "Sovereign Military Order of Malta",
+    "translations": {
+      "de": "Sovereign Military Order of Malta",
+      "es": "Sovereign Military Order of Malta",
+      "fr": "Sovereign Military Order of Malta",
+      "ja": "Sovereign Military Order of Malta",
+      "it": "Sovereign Military Order of Malta",
+      "br": "Sovereign Military Order of Malta",
+      "pt": "Sovereign Military Order of Malta",
+      "nl": "Sovereign Military Order of Malta",
+      "hr": "Sovereign Military Order of Malta",
+      "fa": "Sovereign Military Order of Malta"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XXA",
+    "mrzCode": "XXA",
+    "altSpellings": [
+      "XXA",
+      "Stateless person"
+    ],
+    "flag": "",
+    "name": "Stateless person",
+    "nativeName": "Stateless person",
+    "translations": {
+      "de": "Stateless person",
+      "es": "Stateless person",
+      "fr": "Stateless person",
+      "ja": "Stateless person",
+      "it": "Stateless person",
+      "br": "Stateless person",
+      "pt": "Stateless person",
+      "nl": "Stateless person",
+      "hr": "Stateless person",
+      "fa": "Stateless person"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XXB",
+    "mrzCode": "XXB",
+    "altSpellings": [
+      "XXB",
+      "Refugee"
+    ],
+    "flag": "",
+    "name": "Refugee",
+    "nativeName": "Refugee",
+    "translations": {
+      "de": "Refugee",
+      "es": "Refugee",
+      "fr": "Refugee",
+      "ja": "Refugee",
+      "it": "Refugee",
+      "br": "Refugee",
+      "pt": "Refugee",
+      "nl": "Refugee",
+      "hr": "Refugee",
+      "fa": "Refugee"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XXC",
+    "mrzCode": "XXC",
+    "altSpellings": [
+      "XXC",
+      "Refugee"
+    ],
+    "flag": "",
+    "name": "Refugee",
+    "nativeName": "Refugee",
+    "translations": {
+      "de": "Refugee",
+      "es": "Refugee",
+      "fr": "Refugee",
+      "ja": "Refugee",
+      "it": "Refugee",
+      "br": "Refugee",
+      "pt": "Refugee",
+      "nl": "Refugee",
+      "hr": "Refugee",
+      "fa": "Refugee"
+    }
+  },
+  {
+    "alpha2Code": "",
+    "alpha3Code": "XXX",
+    "mrzCode": "XXX",
+    "altSpellings": [
+      "XXX",
+      "Unspecified Nationality"
+    ],
+    "flag": "",
+    "name": "Unspecified Nationality",
+    "nativeName": "Unspecified Nationality",
+    "translations": {
+      "de": "Unspecified Nationality",
+      "es": "Unspecified Nationality",
+      "fr": "Unspecified Nationality",
+      "ja": "Unspecified Nationality",
+      "it": "Unspecified Nationality",
+      "br": "Unspecified Nationality",
+      "pt": "Unspecified Nationality",
+      "nl": "Unspecified Nationality",
+      "hr": "Unspecified Nationality",
+      "fa": "Unspecified Nationality"
+    }
   }
 ]
