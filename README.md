@@ -12,13 +12,27 @@ Countries resources for Android
 repositories {
     maven { url 'https://dl.bintray.com/bastienpaulfr/maven/'}
 }
+```
 
+### For country data
+
+```groovy
 dependencies {
-    implementation 'fr.coppernic.lib:countries:0.1.0'
+    implementation 'fr.bipi.android:countries:0.1.1'
+}
+```
+
+### For flag resources
+
+```groovy
+dependencies {
+    implementation 'fr.bipi.android:flags:0.1.1'
 }
 ```
 
 ## Presentation
+
+### Country data
 
 Data is gotten from https://restcountries.eu/
 
@@ -41,6 +55,23 @@ val france: Country = countryManager.countryByAlpha3Code["FRA"]
 val france: Country = countryManager.countryByAlpha2Code["FR"]
 
 ```
+
+### Flags
+
+The flags are named by their 2-letter ISO-3166 country code, except for the
+constituent countries of Great Britain which have 6-letter codes "GB-ENG" etc).
+
+Kosovo uses the user-assigned country code `XK`, which is not part of the ISO standard, but in use by several multinational organizations.
+
+Flags are standard resources. Name of resource is `ic_{2-letter ISO-3166 country code}`
+
+For example :
+
+```
+val resId = R.drawable.ic_fr
+```
+
+SVG counterpart of drawable resource is in `data/svg` folder
 
 ### Logs
 
@@ -87,6 +118,13 @@ dependencies {
 ```
 
 ## License
+
+### Flag pictures
+
+The source files were taken from Wikipedia and are not under copyright
+protection since flags are effectively in public domain.
+
+### Code
 
     Copyright (C) 2020 Bastien Paul
 
