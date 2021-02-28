@@ -1,9 +1,6 @@
 apply plugin: 'maven-publish'
 apply plugin: 'org.jetbrains.dokka-android'
 
-String v = "$project.versioning.info.display"
-String t = "$project.versioning.info.tag"
-
 dokka {
     includes = ["${project.rootProject.projectDir}/Readme.md"]
     jdkVersion = 7
@@ -110,36 +107,5 @@ publishing {
                 }
             }
         }
-    }
-}
-
-bintray {
-    user = project.hasProperty("bintray_user")?project.bintray_user:""
-    key = project.hasProperty("bintray_key")?project.bintray_key:""
-    pkg {
-        repo = (versioning.info.branchType == "release")? "maven" : "maven-snapshot"
-        name = rootProject.name
-        licenses = ["Apache-2.0"]
-        labels = BINTRAY_LABELS.split(",")
-        vcsUrl = POM_SCM_URL
-        websiteUrl = POM_URL
-        issueTrackerUrl = POM_ISSUES_URL
-        githubRepo = GITHUB_REPO //Optional Github repository
-        githubReleaseNotesFile = GITHUB_README //Optional Github readme file
-        version {
-            name = v
-            desc = POM_DESCRIPTION
-            released = new Date()
-            vcsTag = t
-        }
-    }
-    publications = ['art']
-    publish = true
-}
-
-// Add publications to bintray
-afterEvaluate {
-    bintray.publications = project.publishing.publications.collect {
-        it.name
     }
 }

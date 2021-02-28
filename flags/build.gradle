@@ -1,5 +1,4 @@
 plugins {
-    id "com.jfrog.bintray" version "1.8.4"
     id "fr.coppernic.versioning" version "3.1.2"
 }
 

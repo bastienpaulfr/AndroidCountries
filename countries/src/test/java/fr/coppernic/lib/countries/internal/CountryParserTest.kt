@@ -3,7 +3,6 @@ package fr.coppernic.lib.countries.internal
 import fr.coppernic.lib.countries.Country
 import fr.coppernic.lib.test.RobolectricTest
 import org.amshove.kluent.`should contain all`
-import org.apache.tools.ant.filters.StringInputStream
 import org.junit.Before
 import org.junit.Test
 import timber.log.Timber
@@ -71,7 +70,7 @@ class CountryParserTest : RobolectricTest() {
 
     @Test
     fun parse() {
-        val l = parser.parse(StringInputStream(countriesString))
+        val l = parser.parse(countriesString.byteInputStream())
         Timber.v("$l")
         val ll = listOf(
                 Country(

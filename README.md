@@ -1,4 +1,4 @@
-[![Download](https://api.bintray.com/packages/bastienpaulfr/maven/AndroidCountries/images/download.svg)](https://bintray.com/bastienpaulfr/maven/AndroidCountries/_latestVersion)
+[![Download](https://jitpack.io/v/bastienpaulfr/AndroidCountries.svg)](https://jitpack.io/#bastienpaulfr/AndroidCountries)
 [![Build Status](https://travis-ci.org/bastienpaulfr/AndroidCountries.svg?branch=master)](https://travis-ci.org/bastienpaulfr/AndroidCountries)
 
 # AndroidCountries
@@ -10,7 +10,7 @@ Countries resources for Android
 
 ```groovy
 repositories {
-    maven { url 'https://dl.bintray.com/bastienpaulfr/maven/'}
+    maven { url 'https://jitpack.io' }
 }
 ```
 
@@ -18,7 +18,7 @@ repositories {
 
 ```groovy
 dependencies {
-    implementation 'fr.bipi.android:countries:0.1.1'
+    implementation 'com.github.bastienpaulfr.AndroidCountries:countries:0.1.4'
 }
 ```
 
@@ -26,7 +26,7 @@ dependencies {
 
 ```groovy
 dependencies {
-    implementation 'fr.bipi.android:flags:0.1.1'
+    implementation 'com.github.bastienpaulfr.AndroidCountries:flags:0.1.4'
 }
 ```
 
