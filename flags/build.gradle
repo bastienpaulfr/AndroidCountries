@@ -3,27 +3,9 @@ plugins {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'checkstyle'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
-
-
-task checkstyle(type: Checkstyle) {
-    configFile rootProject.file('config/checkstyle.xml')
-    source 'src/main/java'
-    ignoreFailures false
-    showViolations true
-    include '**/*.java'
-
-    classpath = files()
-}
-
-afterEvaluate {
-    if (project.tasks.findByName('check')) {
-        check.dependsOn('checkstyle')
-    }
-}
 
 repositories {
     google()

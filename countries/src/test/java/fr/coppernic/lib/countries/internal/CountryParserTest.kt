@@ -73,57 +73,85 @@ class CountryParserTest : RobolectricTest() {
         val l = parser.parse(countriesString.byteInputStream())
         Timber.v("$l")
         val ll = listOf(
-                Country(
-                        alpha2Code = "AF",
-                        alpha3Code = "AFG",
-                        mrzCode = "AFG",
-                        altSpellings = listOf(
-                                "AF",
-                                "Afġānistān"
-                        ),
-                        flag = "https://restcountries.eu/data/afg.svg",
-                        name = "Afghanistan",
-                        nativeName = "افغانستان",
-                        translations = mapOf(
-                                Pair("de", "Afghanistan"),
-                                Pair("es", "Afganistán"),
-                                Pair("fr", "Afghanistan"),
-                                Pair("ja", "アフガニスタン"),
-                                Pair("it", "Afghanistan"),
-                                Pair("br", "Afeganistão"),
-                                Pair("pt", "Afeganistão"),
-                                Pair("nl", "Afghanistan"),
-                                Pair("hr", "Afganistan"),
-                                Pair("fa", "افغانستان")
-                        )
+            Country(
+                alpha2Code = "AF",
+                alpha3Code = "AFG",
+                mrzCode = "AFG",
+                altSpellings = listOf(
+                    "AF",
+                    "Afġānistān"
                 ),
-                Country(
-                        alpha2Code = "AX",
-                        alpha3Code = "ALA",
-                        mrzCode = "ALA",
-                        altSpellings = listOf(
-                                "AX",
-                                "Aaland",
-                                "Aland",
-                                "Ahvenanmaa"
-                        ),
-                        flag = "https://restcountries.eu/data/ala.svg",
-                        name = "Åland Islands",
-                        nativeName = "Åland",
-                        translations = mapOf(
-                                Pair("de", "Åland"),
-                                Pair("es", "Alandia"),
-                                Pair("fr", "Åland"),
-                                Pair("ja", "オーランド諸島"),
-                                Pair("it", "Isole Aland"),
-                                Pair("br", "Ilhas de Aland"),
-                                Pair("pt", "Ilhas de Aland"),
-                                Pair("nl", "Ålandeilanden"),
-                                Pair("hr", "Ålandski otoci"),
-                                Pair("fa", "جزایر الند")
-                        )
+                flag = "https://restcountries.eu/data/afg.svg",
+                name = "Afghanistan",
+                nativeName = "افغانستان",
+                translations = mapOf(
+                    Pair("de", "Afghanistan"),
+                    Pair("es", "Afganistán"),
+                    Pair("fr", "Afghanistan"),
+                    Pair("ja", "アフガニスタン"),
+                    Pair("it", "Afghanistan"),
+                    Pair("br", "Afeganistão"),
+                    Pair("pt", "Afeganistão"),
+                    Pair("nl", "Afghanistan"),
+                    Pair("hr", "Afganistan"),
+                    Pair("fa", "افغانستان")
                 )
+            ),
+            Country(
+                alpha2Code = "AX",
+                alpha3Code = "ALA",
+                mrzCode = "ALA",
+                altSpellings = listOf(
+                    "AX",
+                    "Aaland",
+                    "Aland",
+                    "Ahvenanmaa"
+                ),
+                flag = "https://restcountries.eu/data/ala.svg",
+                name = "Åland Islands",
+                nativeName = "Åland",
+                translations = mapOf(
+                    Pair("de", "Åland"),
+                    Pair("es", "Alandia"),
+                    Pair("fr", "Åland"),
+                    Pair("ja", "オーランド諸島"),
+                    Pair("it", "Isole Aland"),
+                    Pair("br", "Ilhas de Aland"),
+                    Pair("pt", "Ilhas de Aland"),
+                    Pair("nl", "Ålandeilanden"),
+                    Pair("hr", "Ålandski otoci"),
+                    Pair("fa", "جزایر الند")
+                )
+            )
         )
         l.`should contain all`(ll)
+    }
+
+    @Test
+    fun test() {
+        Child("jean", "dupond")
+    }
+
+    infix fun Int.add(x: Int) = this + x
+
+    fun max(a: Int, b: Int) = if (a > b) a else b
+    fun max2(a: Int, b: Int): Int {
+        if (a > b) return a else return b
+    }
+
+    open class Base(name: String) {
+        init {
+            println("base")
+        }
+
+        open val i = name.length.also { println("Base size $it") }
+    }
+
+    class Child(name: String, last: String) : Base(name) {
+        init {
+            println("child")
+        }
+
+        override val i = last.length.also { println("Child size $it") }
     }
 }
