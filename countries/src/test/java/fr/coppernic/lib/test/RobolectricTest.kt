@@ -13,7 +13,6 @@ import org.robolectric.shadows.ShadowLog
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicBoolean
 
-
 /**
  * Base class extended by every Robolectric test in this project.
  * <p>
@@ -48,7 +47,6 @@ abstract class RobolectricTest {
         } catch (e: InterruptedException) {
             e.printStackTrace()
         }
-
     }
 
     fun unblock() {

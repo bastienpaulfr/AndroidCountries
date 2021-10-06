@@ -113,7 +113,7 @@ from [Treessence](https://github.com/bastienpaulfr/Treessence)
 
 ```groovy
 dependencies {
-    implementation 'fr.bipi.treessence:treessence:0.3.0'
+    implementation 'com.github.bastienpaulfr:Treessence:1.0.5'
 }
 ```
 

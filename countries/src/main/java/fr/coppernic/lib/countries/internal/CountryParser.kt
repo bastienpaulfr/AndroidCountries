@@ -103,5 +103,4 @@ class CountryParser {
         reader.endObject()
         return translations
     }
-
 }

@@ -1,25 +1,26 @@
 plugins {
     id "fr.coppernic.versioning" version "3.1.2"
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
 }
 
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
+apply from: rootProject.file('gradle/ktlint.gradle')
 
 repositories {
     google()
-    jcenter()
+    mavenCentral()
     mavenLocal()
     maven { url "https://jitpack.io" }
 }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 31
 
     defaultConfig {
         minSdkVersion 17
-        targetSdkVersion 29
+        targetSdkVersion 31
         versionCode versioning.info.versionCode
         versionName versioning.info.display
 
@@ -50,8 +51,6 @@ android {
 }
 
 dependencies {
-    // Kotlin
-    //implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
 apply from: rootProject.file('gradle/gradle-publish.gradle')
