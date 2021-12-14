@@ -14,6 +14,10 @@ data class Country(
      */
     val mrzCode: String,
     /**
+     * Codes from the National Crime and Information Center (NCIC) 2000 standard.
+     */
+    val ncicCode: String,
+    /**
      * Alternative spelling of country name
      */
     val altSpellings: List<String>,
