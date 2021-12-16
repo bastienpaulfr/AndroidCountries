@@ -37,6 +37,11 @@ class CountryManagerTest : RobolectricTest() {
     }
 
     @Test
+    fun getCountryByNcicCode() {
+        (countryManager.countryByNcicCode["FN"] ?: error("")).name.`should be equal to`("France")
+    }
+
+    @Test
     fun getCountryByName() {
         (countryManager.countryByName["France"] ?: error("")).name.`should be equal to`("France")
     }
